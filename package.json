@@ -4,9 +4,9 @@
   "description": "Social Network API project for edX's full-stack course",
   "main": "server.js",
   "scripts": {
-    "start": "node index",
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index"
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "express": "^4.17.1",
